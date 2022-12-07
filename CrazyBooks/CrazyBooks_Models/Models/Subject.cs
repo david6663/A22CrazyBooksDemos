@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CrazyBooks_Web.Models
+namespace CrazyBooks_Models.Models
 {
   public class Subject
   {
@@ -15,6 +15,7 @@ namespace CrazyBooks_Web.Models
         [Required]
         [StringLength(30, MinimumLength = 5)]
         public string Name { get; set; }
+        public string Location { get; set; }
 
         //Propriété de navigation 1 à plusieurs, côté plusieurs
         public List<Book> Books { get; set; }

@@ -1,7 +1,8 @@
-﻿using CrazyBooks_Web.Models;
+﻿using CrazyBooks_Models.Models;  //ADD DEMO 2 (apres ajouter reference objet right click)
+using CrazyBooks_Models.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace CrazyBooks_Web.Models.Data
+namespace CrazyBooks_DataAccess.Data
 {
     public class CrazyBooksDbContext:DbContext
     {

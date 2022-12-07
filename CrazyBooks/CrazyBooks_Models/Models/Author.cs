@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CrazyBooks_Web.Models
+namespace CrazyBooks_Models.Models  //on a changé tous les namespaces CrazyBooks_Web en CrazyBooks_Models pis on right click crazybooks_models pour regénérer pour faire dll
 {
     public class Author
     {

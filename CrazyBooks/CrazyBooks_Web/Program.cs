@@ -1,5 +1,6 @@
+using CrazyBooks_DataAccess.Data; //ADD DEMO2
 using CrazyBooks_Web.Models;
-using CrazyBooks_Web.Models.Data;
+//using CrazyBooks_Web.Models.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

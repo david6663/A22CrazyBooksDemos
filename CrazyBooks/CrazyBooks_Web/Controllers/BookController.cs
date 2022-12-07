@@ -1,11 +1,14 @@
-﻿using CrazyBooks_Web.Models;      //ADD
-using CrazyBooks_Web.Models.Data;
+﻿using CrazyBooks_DataAccess.Data; // ADD DEMO
+using CrazyBooks_Models.Models; //ADD demo2 
+using CrazyBooks_Web.Models;      //ADD
+//using CrazyBooks_Web.Models.Data;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//Ce namespace ne correspond pas au nom. faut le corriger. mais C'est moins dommageable que si c'est Models
 namespace CrazyBooks.Controllers
 {
   public class BookController : Controller

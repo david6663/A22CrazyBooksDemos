@@ -1,5 +1,7 @@
-﻿using CrazyBooks_Web.Models;
-using CrazyBooks_Web.Models.Data;   //ADD
+﻿using CrazyBooks_DataAccess.Data;//ADD DEMO2
+using CrazyBooks_Models.Models;  //ADD DEMO 2
+using CrazyBooks_Web.Models;
+//using CrazyBooks_Web.Models.Data;   //ADD
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
